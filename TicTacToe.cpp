@@ -70,7 +70,7 @@ void TicTacToe::over()
 			winner = 2;
 	}
 
-	for (int j = 0; j<3; j++)				//loop through columns
+	for (int j = 0; j<3; j++)	//loop through columns
 	{
 		if (game[0][j] == game[1][j] && game[j][1] == game[2][j] && game[2][j] == 1)
 			winner = 1;
